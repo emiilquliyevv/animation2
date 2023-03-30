@@ -1,0 +1,15 @@
+.loader{
+    font-size: 100px;
+    text-align: center;
+    animation: settigns 1s linear infinite;
+    
+}
+@keyframes settigns{
+0%{
+        transform: rotate(0);
+        left: 0px;
+    }
+100%{
+        transform: rotate(360deg) 
+    }
+}
